@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "tailwindcss";
+@layer utilities {
+  @keyframes blob {
+    0% { transform: scale(1); }
+    33% { transform: scale(1.1); }
+    66% { transform: scale(0.9); }
+    100% { transform: scale(1); }
+  }
+
+  .animate-blob {
+    animation: blob 8s infinite;
+  }
+}
+.skills-gradient {
+  background-image:
+    linear-gradient(
+      38.73deg,
+      rgba(204, 0, 187, 0.15) 0%,
+      rgba(201, 32, 184, 0) 50%
+    ),
+    linear-gradient(
+      141.27deg,
+      rgba(0, 70, 209, 0) 50%,
+      rgba(0, 70, 209, 0.15) 100%
+    );
+}
+
+
+/* Navbar grid texture */
+.navbar-grid {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+
+*{
+  font-family: "Poppins" , sans-sarif;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+@layer utilities{
+  .clip-path-custom{
+    clip-path: polygon(0 0,100% 0, 100% 98%, 75% 95%, 0 100%);
+  }
+
+   .clip-path-custom-2{
+    clip-path: polygon(0 0,100% 0, 100% 98%, 25% 95%, 0 100%);
+  }
+
+     .clip-path-custom-3{
+    clip-path: polygon(0 0,100% 0, 100% 98%, 75% 96%, 0 100%);
+  }
+}
+/* Left side card (notch on right) */
+.clip-left {
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 45%,
+    95% 50%,
+    100% 55%,
+    100% 100%,
+    0 100%
+  );
+}
+
+/* Right side card (notch on left) */
+.clip-right {
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 100%,
+    0 55%,
+    5% 50%,
+    0 45%
+  );
+}
