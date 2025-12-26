@@ -44,7 +44,7 @@ const About = () => {
           {/* About me paragraph  */}
 
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a Front-end Developer proficient in React.js, JavaScript, HTML5, and CSS, complemented by experties in Tailwind and MaterialUI.
+            I am a Front-end Developer proficient in React.js, JavaScript, HTML5, and CSS, complemented by expertise in Tailwind and MaterialUI.
             Experienced in building cross-browser compatible and responsive web interfaces to deliver impactful and user-centered solutions.
           </p>
 

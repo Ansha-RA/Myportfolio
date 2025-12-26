@@ -10,7 +10,7 @@ import React, { useEffect, useState } from "react";
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
     { id: "experience", label: "Experience" },
-    { id: "projects", label: "Projects" },
+    { id: "work", label: "Projects" },
     { id: "education", label: "Education" },
   ];
 

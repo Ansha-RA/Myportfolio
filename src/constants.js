@@ -1,6 +1,11 @@
 import html from './assets/tech/html.png'
 import css from './assets/tech/css.png'
 import javascript from './assets/tech/javascript.png'
+import java from './assets/tech/java.png'
+import python from './assets/tech/python.png'
+import sql from './assets/tech/sql.png'
+import c from './assets/tech/c.png'
+
 import reactjs from './assets/tech/reactjs.png'
 import redux from './assets/tech/redux.png'
 import tailwindcss from './assets/tech/tailwindcss.png'
@@ -10,7 +15,9 @@ import vscode from './assets/tech/vscode.png'
 import git from './assets/tech/git.png'
 import github from './assets/tech/github.png'
 import fakeweb from './assets/tech/fakeweb.webp'
-import meme from './assets/tech/meme.jpg'
+import meme from './assets/tech/meme.png'
+import recipe from './assets/tech/recipe.png'
+
 import haleem from './assets/tech/haleem.jpg'
 import aktu from './assets/tech/aktu.png'
 
@@ -42,7 +49,11 @@ export const SkillsInfo =[
     {
         title:'Languages',
         skills:[
-            {name:"JavaScript", logo:javascript}
+            {name:"JavaScript", logo:javascript},
+            {name:"Java", logo:java},
+            {name:"C", logo:c},
+            {name:"Python", logo:python},
+            {name:"SQL", logo:sql}
         ]
     },
 
@@ -61,7 +72,7 @@ export const experiences =[
     {
         id:0,
         role:"Frontend Intern",
-        company:"Absterge Service pvt ltd",
+        company:"ABSTERGE IT SERVICES PVT LTD",
         date:"July 2024 - August 2024",
         desc:"Developed dynamic and scalable web applications using the React js, handling front-end development. Collaborated with cross-functional teams to build responsive UI, implement RESTFUL APIs, and optimize application performance in an agile environment.",
         skills:[
@@ -87,8 +98,8 @@ export const education=[
         university:"Dr. A.P.J Abdul Kalam Technical Univrsity, Lucknow",
         date: "Nov 2021 - June 2025",
         grade:"7.45 CGPA",
-        desc:"I completed my becholor's degree in Computer Science &  Engineering from Jahangeerabad Institute of Technology, Barabanki. Throughout my studies, I was immersed in a variety of subjects. ",
-        degree:"Bacholor's of Technology - B.tech(CSE)"
+        desc:"I completed my bachelor's degree in Computer Science &  Engineering from Jahangeerabad Institute of Technology, Barabanki. Throughout my studies, I was immersed in a variety of subjects. ",
+        degree:"Bachelor's of Technology - B.tech(CSE)"
 
     },
 
@@ -117,10 +128,10 @@ export const education=[
 export const projects =[
     {
         id:0,
-        title:"Rasha Shield (Fake Websites detection and trust verification platform)",
+        title:"Rasha Shield (Phishing Detection Platform)",
         desc: "Developed Rasha Shield, a real-time cybersecurity tool to detect and analyze phishing and fradulent website activities, providing immediate safety guidance.",
         img:fakeweb,
-        tags:["HTML5", "CSS", "JavaScript", "Restful API's"],
+        tags:["HTML5", "CSS", "JavaScript", "RESTful API"],
         github: "https://github.com/Ansha-RA/Rasha-shield",
         live:"http://127.0.0.2:5501/index.html#home"
 
@@ -128,12 +139,24 @@ export const projects =[
 
     {
         id:1,
-        title:"memes generator",
+        title:"Memes Generator",
         desc:"Built a dynamic Meme Generator using JavaScript that fetches random memes from a public API in real time. The project updates meme images, titles, and authors instantly on user interaction, demonstrating API integration and DOM manipulation skills.",
         img:meme,
         tags:["HTML5", "CSS", "JavaScript"],
         github:"https://github.com/Ansha-RA/Meme-Generator",
         live:"http://127.0.0.2:5500/INDEX.HTML",
+
+    },
+
+    
+    {
+        id:2,
+        title:"Recipe-Finder through API",
+        desc:"This Recipe Finder application demonstrates my ability to build a user-focused frontend application using modern web technologies and API integration. By fetching real-time recipe data from an external API, the project highlights my understanding of asynchronous JavaScript, state management, and responsive UI design.",
+        img:recipe,
+        tags:["HTML5", "CSS", "JavaScript","RESTful API"],
+        github:"https://github.com/Ansha-RA/Recipe-finder-through-API",
+        live:"http://127.0.0.2:5500/",
 
     }
 ]
