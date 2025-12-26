@@ -5,7 +5,6 @@ import java from './assets/tech/java.png'
 import python from './assets/tech/python.png'
 import sql from './assets/tech/sql.png'
 import c from './assets/tech/c.png'
-
 import reactjs from './assets/tech/reactjs.png'
 import redux from './assets/tech/redux.png'
 import tailwindcss from './assets/tech/tailwindcss.png'
@@ -17,7 +16,6 @@ import github from './assets/tech/github.png'
 import fakeweb from './assets/tech/fakeweb.webp'
 import meme from './assets/tech/meme.png'
 import recipe from './assets/tech/recipe.png'
-
 import haleem from './assets/tech/haleem.jpg'
 import aktu from './assets/tech/aktu.png'
 
@@ -74,7 +72,7 @@ export const experiences =[
         role:"Frontend Intern",
         company:"ABSTERGE IT SERVICES PVT LTD",
         date:"July 2024 - August 2024",
-        desc:"Developed dynamic and scalable web applications using the React js, handling front-end development. Collaborated with cross-functional teams to build responsive UI, implement RESTFUL APIs, and optimize application performance in an agile environment.",
+        desc:"Developed dynamic and scalable web applications using the React js, handling front-end development. Collaborated with cross-functional teams to build responsive UI, implement RESTful API, and optimize application performance in an agile environment.",
         skills:[
             "HTML",
             "CSS",
@@ -98,8 +96,8 @@ export const education=[
         university:"Dr. A.P.J Abdul Kalam Technical Univrsity, Lucknow",
         date: "Nov 2021 - June 2025",
         grade:"7.45 CGPA",
-        desc:"I completed my bachelor's degree in Computer Science &  Engineering from Jahangeerabad Institute of Technology, Barabanki. Throughout my studies, I was immersed in a variety of subjects. ",
-        degree:"Bachelor's of Technology - B.tech(CSE)"
+        desc:"I completed my Bachelor's degree in Computer Science &  Engineering from Jahangeerabad Institute of Technology, Barabanki. Throughout my studies, I was immersed in a variety of subjects.",
+        degree:"Bacheler's of Technology - B.tech(CSE)"
 
     },
 
@@ -159,4 +157,5 @@ export const projects =[
         live:"http://127.0.0.2:5500/",
 
     }
+    
 ]
