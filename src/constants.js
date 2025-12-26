@@ -61,9 +61,9 @@ export const experiences =[
     {
         id:0,
         role:"Frontend Intern",
-        company:"Absterge Service pvt ltd",
+        company:"Absterge Service Pvt Ltd",
         date:"July 2024 - August 2024",
-        desc:"Developed dynamic and scalable web applications using the React js, handling front-end development. Collaborated with cross-functional teams to build responsive UI, implement RESTFUL APIs, and optimize application performance in an agile environment.",
+        desc:"Developed dynamic and scalable web applications using the React js, handling front-end development. Collaborated with cross-functional teams to build responsive UI, implement RESTful API, and optimize application performance in an agile environment.",
         skills:[
             "HTML",
             "CSS",
@@ -87,8 +87,8 @@ export const education=[
         university:"Dr. A.P.J Abdul Kalam Technical Univrsity, Lucknow",
         date: "Nov 2021 - June 2025",
         grade:"7.45 CGPA",
-        desc:"I completed my becholor's degree in Computer Science &  Engineering from Jahangeerabad Institute of Technology, Barabanki. Throughout my studies, I was immersed in a variety of subjects. ",
-        degree:"Bacholor's of Technology - B.tech(CSE)"
+        desc:"I completed my Bachelor's degree in Computer Science &  Engineering from "Jahangeerabad Institute of Technology", Barabanki. Throughout my studies, I was immersed in a variety of subjects. ",
+        degree:"Bacheler's of Technology - B.tech(CSE)"
 
     },
 
@@ -98,7 +98,7 @@ export const education=[
         school:"Haleem Muslim Inter College, Kanpur",
         date: " March 2019 - April 2020",
         grade:"75%",
-        desc:"I completed my class 12 education from Haleem Muslim Inter College, Kanpur. under the UP board, where I studied physics, Chemistry, Math.",
+        desc:"I completed my class 12 education from "Haleem Muslim Inter College", Kanpur. under the UP board, where I studied physics, Chemistry, Math.",
         degree:"UP Board(XII) - PCM "
     },
 
@@ -109,7 +109,7 @@ export const education=[
         school:"Haleem Muslim Inter College, Kanpur",
         date: " Feb 2017 - April 2018",
         grade:"77.7%",
-        desc:"I completed my class 10 education from Haleem Muslim Inter College, Kanpur. under the UP board, where I studied Science with Urdu.",
+        desc:"I completed my class 10 education from "Haleem Muslim Inter College", Kanpur. under the UP board, where I studied Science with Urdu.",
         degree:"UP Board(X) - Science with Urdu "
     },
 ];
@@ -120,7 +120,7 @@ export const projects =[
         title:"Rasha Shield (Fake Websites detection and trust verification platform)",
         desc: "Developed Rasha Shield, a real-time cybersecurity tool to detect and analyze phishing and fradulent website activities, providing immediate safety guidance.",
         img:fakeweb,
-        tags:["HTML5", "CSS", "JavaScript", "Restful API's"],
+        tags:["HTML5", "CSS", "JavaScript", "RESTful API"],
         github: "https://github.com/Ansha-RA/Rasha-shield",
         live:"http://127.0.0.2:5501/index.html#home"
 
@@ -136,4 +136,5 @@ export const projects =[
         live:"http://127.0.0.2:5500/INDEX.HTML",
 
     }
+    
 ]
