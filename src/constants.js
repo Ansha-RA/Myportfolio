@@ -97,7 +97,7 @@ export const education=[
         date: "Nov 2021 - June 2025",
         grade:"7.45 CGPA",
         desc:"I completed my Bachelor's degree in Computer Science &  Engineering from Jahangeerabad Institute of Technology, Barabanki. Throughout my studies, I was immersed in a variety of subjects.",
-        degree:"Bacheler's of Technology - B.tech(CSE)"
+        degree:"Bachelor's of Technology - B.tech(CSE)"
 
     },
 
@@ -131,7 +131,7 @@ export const projects =[
         img:fakeweb,
         tags:["HTML5", "CSS", "JavaScript", "RESTful API"],
         github: "https://github.com/Ansha-RA/Rasha-shield",
-        live:"http://127.0.0.2:5501/index.html#home"
+        live:"https://rasha-shield.vercel.app/"
 
     },
 
@@ -142,7 +142,7 @@ export const projects =[
         img:meme,
         tags:["HTML5", "CSS", "JavaScript"],
         github:"https://github.com/Ansha-RA/Meme-Generator",
-        live:"http://127.0.0.2:5500/INDEX.HTML",
+      
 
     },
 
@@ -154,7 +154,7 @@ export const projects =[
         img:recipe,
         tags:["HTML5", "CSS", "JavaScript","RESTful API"],
         github:"https://github.com/Ansha-RA/Recipe-finder-through-API",
-        live:"http://127.0.0.2:5500/",
+        live: "https://recipe-finder-through-api.vercel.app/",
 
     }
     
