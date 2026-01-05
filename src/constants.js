@@ -72,7 +72,7 @@ export const experiences =[
         role:"Frontend Intern",
         company:"ABSTERGE IT SERVICES PVT LTD",
         date:"July 2024 - August 2024",
-        desc:"Developed dynamic and scalable web applications using the React js, handling front-end development. Collaborated with cross-functional teams to build responsive UI, implement RESTful API, and optimize application performance in an agile environment.",
+        desc:"Built Doctro, a comprehensive healthcare platform using React.js, featuring separate portals for Doctors and Patients. Implemented real-time features such as instant appointment booking, advanced doctor/hospital search, live queue tracking, and emergency SOS with ambulance tracking, meanwhile Designed a fully responsive, modern UI ensuring a seamless user experience across all devices.",
         skills:[
             "HTML",
             "CSS",
@@ -150,9 +150,9 @@ export const projects =[
     {
         id:2,
         title:"Recipe-Finder through API",
-        desc:"This Recipe Finder application demonstrates my ability to build a user-focused frontend application using modern web technologies and API integration. By fetching real-time recipe data from an external API, the project highlights my understanding of asynchronous JavaScript, state management, and responsive UI design.",
+        desc:"Recipe Finder allows user to search for specific meals and instantly retrieves detailed ingredient lists and cooking instructions using TheMealDB API.",
         img:recipe,
-        tags:["HTML5", "CSS", "JavaScript","RESTful API"],
+        tags:["HTML5", "CSS", "JavaScript","RESTful API","State Management","Responsive UI Design"],
         github:"https://github.com/Ansha-RA/Recipe-finder-through-API",
         live: "https://recipe-finder-through-api.vercel.app/",
 
