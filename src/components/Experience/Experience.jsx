@@ -52,7 +52,25 @@ function Experience() {
 
 </div>
 </div>
+
+
+{/* projects and features  */}
+
+<h3 className="text-lg font-semibold text-primary text-gray-400">
+  {experiences.project}
+</h3>
 <p className="mt-4 text-gray-400">{experiences.desc}</p>
+<p className="mt-3 text-gray-400">{experiences.featureHeading}</p>
+
+<ul className="list-disc pl-6 mt-2 space-y-1 text-gray-400">
+  {experiences.features.map((feature, index) => (
+    <li key={index}>{feature}</li>
+  ))}
+</ul>
+
+
+
+
 <div className="mt-4">
   <h5 className="font-medium text-white">Skills:</h5>
   <ul className="flex flex-wrap mt-2">

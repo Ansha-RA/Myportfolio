@@ -57,7 +57,15 @@ function Education() {
 
               <p className="mt-4 text-purple-400 font-semibold">Grade: {edu.grade} </p>
               <p className="mt-2 text-gray-400">{edu.desc}</p>
+              <ul className="mt-3 list-disc pl-5 text-gray-400 font-semibold">
+  {edu.sub?.map((sub, index) => (
+    <li key={index}>{sub}</li>
+  ))}
+</ul>
+
+              
             </div>
+          
           </div>
         ))}
       </div>

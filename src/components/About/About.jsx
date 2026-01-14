@@ -10,6 +10,7 @@ const About = () => {
       "Front-end Developer",
       "Web Developer",
       "UI/UX Designer",
+      "React Developer",
       "Coder",
     ],
     loop: true,
