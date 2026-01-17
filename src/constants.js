@@ -106,7 +106,7 @@ export const education = [
         school: "Dr. A.P.J Abdul Kalam Technical Univrsity, Lucknow.",
         date: "August 2021 - June 2025",
         grade: "7.45 CGPA",
-        desc: "I completed my Bachelor's degree in Computer Science & Engineering from Dr. A.P.J Abdul Kalam Technical University, Lucknow. with relevent subjects are :",
+        desc: "I completed my Bachelor's degree in Computer Science & Engineering from Dr. A.P.J Abdul Kalam Technical University, Lucknow, with relevent subjects are :",
         sub:[
             "Data Structures.", "AI with Engineering.", "DBMS.", "Operating Systems.", "Compiler Design.", "Computer Organization and Architecture.", "Web Technology.", "Design and Analysis of Algorithm."
         ],
@@ -120,7 +120,7 @@ export const education = [
         school: "Haleem Muslim Inter College, Kanpur.",
         date: " March 2019 - April 2020",
         grade: "75%",
-        desc: "I completed my class 12th education from Haleem Muslim Inter College,Kanpur, under the UP board, where I studied Physics, Chemistry, Math.",
+        desc: "I completed my class 12th education from Haleem Muslim Inter College, Kanpur, under the UP board, where I studied Physics, Chemistry, Math.",
         degree: "UP Board(XII) - PCM "
     },
 
@@ -131,7 +131,7 @@ export const education = [
         school: "Haleem Muslim Inter College, Kanpur.",
         date: " March 2017 - April 2018",
         grade: "77.7%",
-        desc: "I completed my class 10th education from Haleem Muslim Inter College,Kanpur, under the UP board, where I studied Science with Urdu.",
+        desc: "I completed my class 10th education from Haleem Muslim Inter College, Kanpur, under the UP board, where I studied Science with Urdu.",
         degree: "UP Board(X) - Science with Urdu "
     },
 ]
