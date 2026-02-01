@@ -69,7 +69,7 @@ export const SkillsInfo = [
 export const experiences = [
     {
         id: 0,
-        role: "Frontend Intern",
+        role: "Front-End Developer Intern",
         company: "ABSTERGE IT SERVICES PVT LTD",
         date: "July 2024 - August 2024",
         project: "(Doctro – Healthcare Application).",
@@ -140,7 +140,7 @@ export const projects = [
     {
         id: 0,
         title: "Rasha Shield (Phishing Detection Platform)",
-        desc: "Developed Rasha Shield, a real-time cybersecurity tool to detect and analyze phishing and fradulent website activities, providing immediate safety guidance.",
+        desc: "Developed Rasha Shield, a real-time cybersecurity tool to detect and analyze phishing and fraudulent website activities, providing immediate safety guidance.",
         img: fakeweb,
         tags: ["HTML5", "CSS", "JavaScript", "RESTful API"],
         github: "https://github.com/Ansha-RA/Rasha-shield",
