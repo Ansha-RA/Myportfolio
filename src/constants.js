@@ -90,7 +90,52 @@ export const experiences = [
             "Tailwind CSS",
             "Redux",
         ],
+             id: 0,
+        role: "Front-End Developer Intern",
+        company: "ABSTERGE IT SERVICES PVT LTD",
+        date: "July 2024 - August 2024",
+        project: "(Doctro – Healthcare Application).",
+        desc:
+            "Developed a user-friendly website for a healthcare system using React.js. Implemented separate role-based sections for doctors and patients to enhance navigation and access to information. Ensured a modern, fully responsive design, guaranteeing optimal performance and display across all devices (mobile, tablet, and desktop).",
+        featureHeading: "Implemented real-time features such as :",
+        features: [
+            "Instant appointment booking.",
+            "Advanced Doctor/Hospital search.",
+            "Live queue tracking.",
+            "Emergency SOS with ambulance tracking.",
+        ],
+        skills: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React JS",
+            "Tailwind CSS",
+            "Redux",
+        ],
     },
+         {id: 1,
+        role: "Front-End Developer Intern",
+        company: "IHSUK TECH Pvt Ltd",
+        date: "Feb 2026 - Present",
+        project: "Fixspire",
+        desc:"Fixspire makes field services simple by connecting customers and technicians on one easy platform.Whether it’s booking a repair or managing clients, everything is handled smoothly in one place.",
+        featureHeading: "Implemented real-time features such as :",
+        features: [
+            "Smart Client Management.",
+            "Intelligent Scheduling.",
+            "Professional Invoicing.",
+    
+        ],
+        skills: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React JS",
+            "Tailwind CSS",
+            "Next.js ",
+            "API Integration"
+        ],
+    }
 ];
 
 

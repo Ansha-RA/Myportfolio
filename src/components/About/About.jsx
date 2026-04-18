@@ -52,8 +52,7 @@ const About = () => {
           {/* Resume Button  */}
 
           <a
-            href="https://ansha-ra.github.io/Ansha.io/files/Ansharesume.pdf
-"
+            href="https://ansha-ra.github.io/Ansha.io/files/Ansha (4).pdf"
             target="_blank"
             rel="noopenernoreferrer"
             className="inline-block text-white py-3 px-3 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
